@@ -8,8 +8,6 @@
 
 This project studies how the worker-thread count affects shared-memory matrix multiplication. It compares an equivalent sequential and parallel implementation of the same `i-k-j` loop-reordered algorithm. Both implementations use Java `int[][]` matrices, integer arithmetic, the same generator, and identical inputs for each matrix size.
 
-The optional SIMD vectorisation extension is not included. This keeps the experiment focused on parallel execution and thread-count scaling.
-
 ## 2. Reuse from Assignment 2
 
 The sequential reference reuses the `multiplyLoopReordered` method and input-generation approach from the Assignment 2 repository:
