@@ -1,0 +1,15 @@
+# Maven / Java build output
+target/
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE metadata
+.idea/
+.vscode/
+
+# Temporary files
+*.log
+.DS_Store
